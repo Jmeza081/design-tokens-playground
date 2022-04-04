@@ -1,0 +1,9 @@
+color:
+  background:
+    danger:
+      neutral:
+        value: "{global.color.blue-05}"
+    success:
+      default:
+        hover:
+          value: "{global.color.blue-90}"

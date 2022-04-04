@@ -6,14 +6,26 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node ./build.js",
-    "watch": "npm run build && chokidar  \"tokens/**/*.json\" -c \"npm run build\""
+    "watch": "npm run build && chokidar  \"tokens/**/*.yaml\" -c \"npm run build\""
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
     "chokidar-cli": "^3.0.0",
-    "style-dictionary": "^3.1.1"
+    "style-dictionary": "^3.1.1",
+    "yaml": "^1.10.2"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jmeza081/design-tokens-playground.git"
+  },
+  "keywords": [
+    "design",
+    "tokens"
+  ],
+  "bugs": {
+    "url": "https://github.com/Jmeza081/design-tokens-playground/issues"
+  },
+  "homepage": "https://github.com/Jmeza081/design-tokens-playground#readme"
 }
