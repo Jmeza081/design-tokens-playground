@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node ./build.js",
-    "watch": "npm run build && chokidar  \"tokens/**/*.yaml\" -c \"npm run build\""
+    "watch": "npm run build && chokidar  \"tokens/**/*.yaml\" \"**/build.js\" -c \"npm run build\""
   },
   "author": "",
   "license": "MIT",

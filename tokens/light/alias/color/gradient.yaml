@@ -1,0 +1,8 @@
+color:
+  gradient:
+    loyalty:
+      value:
+        from: "#e66465"
+        to: "#9198e5"
+      meta:
+        type: "gradient"

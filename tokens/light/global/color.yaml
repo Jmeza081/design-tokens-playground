@@ -1,6 +1,7 @@
 global:
   color:
-   blue-05: "#EEF5FF"
+   blue-05: 
+     value: "#EEF5FF"
    blue-10: "#FFFFFF"
    blue-20: "#FFFFFF"
    blue-30: "#FFFFFF"

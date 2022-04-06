@@ -2,7 +2,7 @@ color:
   background:
     danger:
       neutral:
-        value: "{global.color.blue-05}"
+        value: "{global.color.blue-05.value}"
     success:
       default:
         hover:
